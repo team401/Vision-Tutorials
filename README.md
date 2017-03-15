@@ -63,7 +63,7 @@ Debug: 15
 
 HSV ranges: 42 - 44
 ```cpp
-     // Place the lower bound in [0] and the upper in [1]
+    // Place the lower bound in [0] and the upper in [1]
     int H[2] = {58, 62};
     int S[2] = {253, 255};
     int V[2] = {120, 185};
@@ -129,7 +129,7 @@ Just click on the pixel you want and it will return the HSV value of that spot, 
 - S +- 3
 - V +- 153
 
-I set camera settings using a program called **qv4l2**. The settings we are using this year are the following:
+I set camera settings using a program called **[qv4l2](https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=how%20to%20install%20qv4l2&oq=how%20to%20install%20qv4l2&aqs=chrome..69i57.5651j0j7)**. The settings we are using this year are the following:
 
   - Brightness: 0
   - Contrast: 0
