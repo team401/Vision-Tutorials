@@ -15,28 +15,28 @@ This is FRC Team 401 Copperhead Robotics 2017 Vision Code, the files in this rep
 Running one of the Programs
 -------------
 
-Open up a unix terminal and navigate to the folder and run the following commands
+Open up a unix terminal and navigate to the folder and run the following commands:
 
-Creates a directory called build
+Create a directory called build
 >mkdir build
 
-Goes inside of build
+Go inside of build
 
 >cd build
 
-Sets up CMake so it can easily compile code on the fly
+Set up CMake so it can easily compile code on the fly
 
 >cmake ..
 
-Creates the files in a new folder called bin
+Compile the code to create runnable files
 
 >make
 
-Goes back up a directory
+Go back up a directory
 
 >cd ..
 
-Runs the selected file
+Run the selected file
 
 >./bin/FILENAME
 
