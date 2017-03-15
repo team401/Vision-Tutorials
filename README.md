@@ -77,8 +77,8 @@ Image Width, Height, and Camera FOV: 55 - 57
 ```cpp
 // Most cameras are 640x480, change if needed
 int imageWidth = 640,
-        imageHeight = 480;
-    double cameraFOV = 75.0, 
+    imageHeight = 480;
+double cameraFOV = 75.0, 
 ```
     
 Contour Filtering: 69 - 79
