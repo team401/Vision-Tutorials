@@ -15,7 +15,7 @@ This is FRC Team 401 Copperhead Robotics 2017 Vision Code, the files in this rep
 Running one of the Programs
 -------------
 
-Open up a unix terminal and navigate to the folder
+Open up a unix terminal and navigate to the folder and run the following commands
 
 Creates a directory called build
 >mkdir build
