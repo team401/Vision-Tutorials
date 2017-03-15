@@ -45,6 +45,7 @@ Main.cpp
 The main vision file used in FRC Team 401's Vision code.
 
 Setup: Lines 18-80
+
 These lines set up the basic variables and configuration for the code which can be configured for each team's needs.
 >**Note:** You should make sure that line 26 has the correct camera source, you can check this by running **ls /dev/video*** in a terminal.
  
