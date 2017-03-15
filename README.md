@@ -39,7 +39,7 @@ cd ..
 ```
 Run the selected file
 ```shell
->./bin/FILENAME
+./bin/FILENAME
 ```
 ----------
 
