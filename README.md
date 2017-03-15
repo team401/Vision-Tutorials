@@ -1,6 +1,7 @@
 FRC Team 401 Vision Tutorial
 ===================
 
+**NOTE:** This code will **_only_** run on a Unix based operating system. Ubuntu is free, easy to install, and great for beginners.
 
 This is FRC Team 401 Copperhead Robotics 2017 Vision Code, the files in this repository are the three most important files used in vision processing for STEAM works. We used a Playstation Eye Webcam as our main camera and used one of the classic green LED rings to help us target the goal. The following files are included:
 
@@ -15,6 +16,7 @@ Running one of the Programs
 -------------
 
 Open up a unix terminal and navigate to the folder
+
 Creates a directory called build
 >mkdir build
 
@@ -47,7 +49,7 @@ The main vision file used in FRC Team 401's Vision code.
 Setup: Lines 18-80
 
 These lines set up the basic variables and configuration for the code which can be configured for each team's needs.
->**Note:** You should make sure that line 26 has the correct camera source, you can check this by running **ls /dev/video*** in a terminal.
+**NOTE:** You should make sure that line 26 has the correct camera source, you can check this by running **ls /dev/video*** in a terminal.
  
  Set custom values on the following lines
  
@@ -77,7 +79,6 @@ To run the command, use the following syntax
 Where you replace 401 with how the distance away the camera is. It will print a Focal Length based on your distance away.
 
 **NOTE:** Each camera has a different Focal Length and the code is not perfect, for the best result preform multiple test and average your Focal Lengths together.
-
 ----------
 
 hsvFinder.cpp
