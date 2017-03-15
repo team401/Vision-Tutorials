@@ -5,9 +5,9 @@ FRC Team 401 Vision Tutorial
 
 This is FRC Team 401 Copperhead Robotics 2017 Vision Code, the files in this repository are the three most important files used in vision processing for STEAM works. We used a Playstation Eye Webcam as our main camera and used one of the classic green LED rings to help us target the goal. The following files are included:
 
- - Main.cpp: The main vision processing file that calculates Yaw, Pitch, and Distance
- - flCalculator.cpp: Finds the Focal Length of your camera, import for being used in Main.cpp
- - hsvFinder.cpp: Finds the HSV values of a pixel while looking through your camera
+ - [Main.cpp:](src/main.cpp) The main vision processing file that calculates Yaw, Pitch, and Distance
+ - [flCalculator.cpp:](src/flCalculator.cpp) Finds the Focal Length of your camera, import for being used in Main.cpp
+ - [hsvFinder.cpp:](src/hsvFinder.cpp) Finds the HSV values of a pixel while looking through your camera
 
 ----------
 
@@ -18,28 +18,29 @@ Running one of the Programs
 Open up a unix terminal and navigate to the folder and run the following commands:
 
 Create a directory called build
->mkdir build
-
+```shell
+mkdir build
+```
 Go inside of build
-
->cd build
-
+```shell
+cd build
+```
 Set up CMake so it can easily compile code on the fly
-
->cmake ..
-
+```shell
+cmake ..
+```
 Compile the code to create runnable files
-
->make
-
+```shell
+make
+```
 Go back up a directory
-
->cd ..
-
+```shell
+cd ..
+```
 Run the selected file
-
+```shell
 >./bin/FILENAME
-
+```
 ----------
 
 Main.cpp
@@ -51,19 +52,51 @@ Setup: Lines 18-80
 These lines set up the basic variables and configuration for the code which can be configured for each team's needs.
 **NOTE:** You should make sure that line 26 has the correct camera source, you can check this by running **ls /dev/video*** in a terminal.
  
- Set custom values on the following lines
- 
- - Debug mode on line 15
- - HSV values on lines 42-44
- - Focal Length on line 52
- - Image Width and Height on lines 55-56
- - Camera FOV on line 57
- - Contour Filtering parameters on lines 69-79
+ Set custom values on the following lines:
 
-Debug Mode --- Displays the debug windows and prints data out
-Focal Length --- You can find this value by running flCalculator
-Image Width / Height --- Most cameras are 640x480, change if you want
-Contour Filtering parameters can be found using GRIP
+Debug: 15
+
+```cpp
+//Enable to see debug windows and print statements
+ bool debug = true;
+ ```
+
+HSV ranges: 42 - 44
+```cpp
+     // Place the lower bound in [0] and the upper in [1]
+    int H[2] = {58, 62};
+```
+    
+Focal Length - 52:
+```cpp
+// You can find this value by running flCalculator
+double focalLength = 524.9;
+```
+    
+Image Width, Height, and Camera FOV: 55 - 57
+```cpp
+// Most cameras are 640x480, change if needed
+int imageWidth = 640,
+        imageHeight = 480;
+    double cameraFOV = 75.0, 
+```
+    
+Contour Filtering: 69 - 79
+```cpp
+// Parameters can be found using GRIP
+    double minArea = 57,
+           minPerimeter = 50,
+           minWidth = 25,
+           maxWidth = 1000,
+           minHeight = 4,
+           maxHeight = 1000,
+           solidity[] = {62, 100},
+           maxVertices = 1000000,
+           minVertices = 4,
+           minRatio = 1.0,
+           maxRatio = 6.0;
+```
+           
 >For GRIP use the following pipe for the data on lines 69-79
 >-- HSV Filter > Find Contours > Filter Contours
 
@@ -74,7 +107,9 @@ flCalculator.cpp
 All of the variables are almost identical to Main.cpp, however when you run the command you should know the distance from the camera to the center of the two rings of the vision tape.
 
 To run the command, use the following syntax
->./bin/flCalculator 401
+```shell
+./bin/flCalculator 401
+```
 
 Where you replace 401 with how the distance away the camera is. It will then print out the Focal Length for your camera. Try to have the center of the goal be lined up on the center of the entire frame (the white dot) for the best results.
 
