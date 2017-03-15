@@ -65,6 +65,8 @@ HSV ranges: 42 - 44
 ```cpp
      // Place the lower bound in [0] and the upper in [1]
     int H[2] = {58, 62};
+    int S[2] = {253, 255};
+    int V[2] = {120, 185};
 ```
     
 Focal Length - 52:
@@ -75,7 +77,7 @@ double focalLength = 524.9;
     
 Image Width, Height, and Camera FOV: 55 - 57
 ```cpp
-// Most cameras are 640x480, change if needed
+// Our camera has a view of 640x480 pixels and a FOV of 75
 int imageWidth = 640,
     imageHeight = 480;
 double cameraFOV = 75.0, 
