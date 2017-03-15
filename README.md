@@ -76,9 +76,10 @@ All of the variables are almost identical to Main.cpp, however when you run the 
 To run the command, use the following syntax
 >./bin/flCalculator 401
 
-Where you replace 401 with how the distance away the camera is. It will print a Focal Length based on your distance away.
+Where you replace 401 with how the distance away the camera is. It will then print out the Focal Length for your camera. Try to have the center of the goal be lined up on the center of the entire frame (the white dot) for the best results.
 
-**NOTE:** Each camera has a different Focal Length and the code is not perfect, for the best result preform multiple test and average your Focal Lengths together.
+**NOTE:** Each camera has a different Focal Length and the code is not perfect, for the best results, preform multiple tests and average your Focal Lengths together.
+
 ----------
 
 hsvFinder.cpp
