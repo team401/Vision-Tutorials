@@ -1,13 +1,13 @@
 FRC Team 401 Vision Tutorial
 ===================
 
-**NOTE:** This code will **_only_** run on a Unix based operating system. Ubuntu is free, easy to install, and great for beginners.
+**NOTE:** This code will **_only_** run on a Linux based operating system. Ubuntu is free, easy to install, and great for beginners.
 
 This is FRC Team 401 Copperhead Robotics 2017 Vision Code, the files in this repository are the three most important files used in vision processing for STEAM works. We used a Playstation Eye Webcam as our main camera and used one of the classic green LED rings to help us target the goal. The following files are included:
 
- - [Main.cpp:](src/main.cpp) The main vision processing file that calculates Yaw, Pitch, and Distance
- - [flCalculator.cpp:](src/flCalculator.cpp) Finds the Focal Length of your camera, import for being used in Main.cpp
- - [hsvFinder.cpp:](src/hsvFinder.cpp) Finds the HSV values of a pixel while looking through your camera
+ - [Main.cpp:](#main) The main vision processing file that calculates Yaw, Pitch, and Distance
+ - [flCalculator.cpp:](#flCalc) Finds the Focal Length of your camera, import for being used in Main.cpp
+ - [hsvFinder.cpp:](#hsvFind) Finds the HSV values of a pixel while looking through your camera
 
 ----------
 
@@ -43,7 +43,7 @@ Run the selected file
 ```
 ----------
 
-Main.cpp
+[Main.cpp](src/main.cpp)<a name="main"></a>
 -------------------
 The main vision file used in FRC Team 401's Vision code.
 
@@ -104,7 +104,7 @@ Contour Filtering: 69 - 79
 
 ----------
 
-flCalculator.cpp
+[flCalculator.cpp](src/flCalculator.cpp)<a name="flCalc"></a>
 -------------------
 All of the variables are almost identical to Main.cpp, however when you run the command you should know the distance from the camera to the center of the two rings of the vision tape.
 
@@ -119,7 +119,7 @@ Where you replace 401 with how the distance away the camera is. It will then pri
 
 ----------
 
-hsvFinder.cpp
+[hsvFinder.cpp](src/hsvFinder.cpp)<a name="hsvFind"></a>
 -------------------
 The only variable you might have to change is the camera number, which I explained above in the **Main.cpp** section. 
 
