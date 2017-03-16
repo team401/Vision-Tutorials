@@ -141,9 +141,9 @@ The only variable you might have to change is the camera number, which I explain
 
 Just click on the pixel you want and it will return the HSV value of that spot, you can then create the range yourself. In my experience you want H and S to be extremely tight, and V is more dependent on your camera settings. These are the ranges that I have for this year:
 
-- H +- 2
-- S +- 3
-- V +- 153
+- H ± 2
+- S ± 3
+- V ± 153
 
 I set camera settings using a program called **[qv4l2](https://www.google.com/search?sourceid=chrome-psyapi2&ion=1&espv=2&ie=UTF-8&q=how%20to%20install%20qv4l2&oq=how%20to%20install%20qv4l2&aqs=chrome..69i57.5651j0j7)**. The settings we are using this year are the following:
 
