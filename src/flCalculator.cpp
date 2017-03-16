@@ -24,7 +24,7 @@ int main(int argc, char **argv) {
     cv::Mat latestFrame,
             hsvFrame,
             rangeFrame;
-    cv::VideoCapture cap(1);
+    cv::VideoCapture cap(0);
 
     // Shapes and centers
     cv::Rect rect,
