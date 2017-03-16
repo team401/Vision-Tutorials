@@ -3,8 +3,8 @@ project(FRC_Vision)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/)
-
 find_package(OpenCV REQUIRED)
+
 set(MAIN_FILE src/main.cpp)
 set(HSV_FILE src/hsvFinder.cpp)
 set(FL_FILE src/flCalculator.cpp)
