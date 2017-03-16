@@ -79,10 +79,10 @@ cv::VideoCapture cap(1);
 
 HSV ranges: 42 - 44
 ```cpp
-    // Place the lower bound in [0] and the upper in [1]
-    int H[2] = {58, 62};
-    int S[2] = {253, 255};
-    int V[2] = {120, 185};
+// Place the lower bound in [0] and the upper in [1]
+int H[2] = {58, 62};
+int S[2] = {253, 255};
+int V[2] = {120, 185};
 ```
     
 Focal Length: 52
