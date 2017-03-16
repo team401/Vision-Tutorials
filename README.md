@@ -1,6 +1,6 @@
 401 Vision
 ===================
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
+[![GPLV3 licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
 **NOTE:** This code will **_only_** run on a Linux based operating system. [Ubuntu](https://www.ubuntu.com/download) is free, easy to install, and great for beginners. You will also need to install OpenCV, the installation guides for the most common distros of Linux can be found [here](#install).
 
