@@ -102,20 +102,20 @@ double cameraFOV = 75.0,
 Contour Filtering: 69 - 79
 ```cpp
 // Parameters can be found using GRIP
-    double minArea = 57,
-           minPerimeter = 50,
-           minWidth = 25,
-           maxWidth = 1000,
-           minHeight = 4,
-           maxHeight = 1000,
-           solidity[] = {62, 100},
-           maxVertices = 1000000,
-           minVertices = 4,
-           minRatio = 1.0,
-           maxRatio = 6.0;
+double minArea = 57,
+   minPerimeter = 50,
+   minWidth = 25,
+   maxWidth = 1000,
+   minHeight = 4,
+   maxHeight = 1000,
+   solidity[] = {62, 100},
+   maxVertices = 1000000,
+   minVertices = 4,
+   minRatio = 1.0,
+   maxRatio = 6.0;
 ```
            
->For GRIP use the following pipe for the data on lines 69-79
+>For GRIP use the following pipeline
 >-- Camera > HSV Filter > Find Contours > Filter Contours
 
 ----------
