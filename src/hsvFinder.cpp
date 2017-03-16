@@ -31,7 +31,7 @@ void CallBackFunc(int event, int x, int y, int flags, void* userdata){
 
 int main() {
     // Connects to our camera
-    cv::VideoCapture cap(1);
+    cv::VideoCapture cap(0);
 
     // Initial print to keep things pretty
     std::cout << "------\n";
