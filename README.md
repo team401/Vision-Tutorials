@@ -1,5 +1,6 @@
-FRC Team 401 Vision Tutorial
+401 Vision
 ===================
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
 **NOTE:** This code will **_only_** run on a Linux based operating system. Ubuntu is free, easy to install, and great for beginners.
 
