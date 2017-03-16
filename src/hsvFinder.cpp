@@ -10,7 +10,7 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 cv::Mat frame,
-    hsvFrame;
+        hsvFrame;
 
 void CallBackFunc(int event, int x, int y, int flags, void* userdata){
     if(event == cv::EVENT_LBUTTONDOWN) {
