@@ -7,7 +7,7 @@
 This is FRC Team 401 Copperhead Robotics' Vision Code for 2017, the files in this repository are the three most important files used in vision processing for STEAMWORKS. We used a Playstation Eye webcam as our main camera and the traditional green LED ring. The following files are included:
 
  - [Main.cpp:](#main) The main vision processing file that calculates yaw, pitch, and distance
- - [flCalculator.cpp:](#flCalc) Finds the Focal Length of your camera, import for being used in Main.cpp
+ - [flCalculator.cpp:](#flCalc) Finds the focal length of your camera, import for being used in Main.cpp
  - [hsvFinder.cpp:](#hsvFind) Finds the HSV values of a pixel while looking through your camera
 
 ----------
@@ -129,9 +129,9 @@ To run the command, use the following syntax
 ./bin/flCalculator 401
 ```
 
-Replace 401 with the distance away the camera is in inches. It will then print out the Focal Length for your camera. Try to have the center of the goal be lined up on the center of the entire frame (the white dot) for the best results.
+Replace 401 with the distance away the camera is in inches. It will then print out the focal length for your camera. Try to have the center of the goal be lined up on the center of the entire frame (the white dot) for the best results.
 
-**NOTE:** Each camera has a different Focal Length and the code is not perfect, for the best results, preform multiple tests and average your Focal Lengths together.
+**NOTE:** Each camera has a different focal length and the code is not perfect, for the best results, preform multiple tests and average your focal lengths together.
 
 ----------
 <a name="hsvFind"></a>
