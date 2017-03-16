@@ -6,9 +6,9 @@
 
 This is FRC Team 401 Copperhead Robotics' Vision Code for 2017, the files in this repository are the three most important files used in vision processing for STEAMWORKS. We used a Playstation Eye webcam as our main camera and the traditional green LED ring. The following files are included:
 
- - [Main.cpp:](#main) The main vision processing file that calculates yaw, pitch, and distance
- - [flCalculator.cpp:](#flCalc) Finds the focal length of your camera, import for being used in Main.cpp
- - [hsvFinder.cpp:](#hsvFind) Finds the HSV values of a pixel while looking through your camera
+ - [Main.cpp:](https://github.com/and3212/FRC_2017_Vision/wiki/Main.cpp) The main vision processing file that calculates yaw, pitch, and distance
+ - [flCalculator.cpp:](https://github.com/and3212/FRC_2017_Vision/wiki/flCalculator.cpp) Finds the focal length of your camera, import for being used in Main.cpp
+ - [hsvFinder.cpp:](https://github.com/and3212/FRC_2017_Vision/wiki/hsvFinder.cpp) Finds the HSV values of a pixel while looking through your camera
 
 ----------
 <a name="install"></a>
