@@ -2,7 +2,7 @@
  * Author: Liam Lawrence
  * Date: 2.25.17
  *
- * FRC Team 401 Vision Code rewrite for the 2017 game STEAM Works
+ * FRC Team 401 Vision Code rewrite for the 2017 game STEAMWORKS
  */
 
 //#include <opencv2/opencv.hpp>
