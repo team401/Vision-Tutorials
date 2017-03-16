@@ -4,7 +4,7 @@
 
 **NOTE:** This code will **_only_** run on a Linux based operating system. [Ubuntu](https://www.ubuntu.com/download) is free, easy to install, and great for beginners.
 
-This is FRC Team 401 Copperhead Robotic's 2017 Vision Code, the files in this repository are the three most important files used in vision processing for STEAMworks. We used a Playstation Eye webcam as our main camera and the traditional green LED ring. The following files are included:
+This is FRC Team 401 Copperhead Robotics' 2017 Vision Code, the files in this repository are the three most important files used in vision processing for STEAMworks. We used a Playstation Eye webcam as our main camera and the traditional green LED ring. The following files are included:
 
  - [Main.cpp:](#main) The main vision processing file that calculates yaw, pitch, and distance
  - [flCalculator.cpp:](#flCalc) Finds the Focal Length of your camera, import for being used in Main.cpp
@@ -147,3 +147,6 @@ I set camera settings using a program called **[qv4l2](https://www.google.com/se
   - Auto WB: Off
   - Auto Gain: Off
 	
+----------
+
+For any questions about our vision code you can reach us [here](http://team401.org/contact), good luck to all of the teams out there this year!
