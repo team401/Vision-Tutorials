@@ -67,8 +67,8 @@ Set custom values on the following lines:
 Debug: 15
 
 ```cpp
- //Enable to see debug windows and print statements
- bool debug = true;
+//Enable to see debug windows and print statements
+bool debug = true;
  ```
 
 Current Camera: 26
