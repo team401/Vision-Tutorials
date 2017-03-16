@@ -42,8 +42,8 @@ Run the selected file
 ./bin/FILENAME
 ```
 ----------
-
-[Main.cpp](src/main.cpp)<a name="main"></a>
+<a name="main"></a>
+[Main.cpp](src/main.cpp)
 -------------------
 The main vision file used in FRC Team 401's Vision code.
 
@@ -103,8 +103,8 @@ Contour Filtering: 69 - 79
 >-- HSV Filter > Find Contours > Filter Contours
 
 ----------
-
-[flCalculator.cpp](src/flCalculator.cpp)<a name="flCalc"></a>
+<a name="flCalc"></a>
+[flCalculator.cpp](src/flCalculator.cpp)
 -------------------
 All of the variables are almost identical to Main.cpp, however when you run the command you should know the distance from the camera to the center of the two rings of the vision tape.
 
@@ -118,8 +118,8 @@ Where you replace 401 with how the distance away the camera is. It will then pri
 **NOTE:** Each camera has a different Focal Length and the code is not perfect, for the best results, preform multiple tests and average your Focal Lengths together.
 
 ----------
-
-[hsvFinder.cpp](src/hsvFinder.cpp)<a name="hsvFind"></a>
+<a name="hsvFind"></a>
+[hsvFinder.cpp](src/hsvFinder.cpp)
 -------------------
 The only variable you might have to change is the camera number, which I explained above in the **Main.cpp** section. 
 
