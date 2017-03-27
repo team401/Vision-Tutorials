@@ -20,7 +20,7 @@ OpenCV Installation
 
 [Fedora Guide](http://docs.opencv.org/3.1.0/dd/dd5/tutorial_py_setup_in_fedora.html#gsc.tab=0)
 
-Arch Guide - $(yaourt -S opencv)
+[Arch Guide](https://www.archlinux.org/packages/extra/i686/opencv/)
 
 <a name="runProgram"></a>
 Running one of the Programs
