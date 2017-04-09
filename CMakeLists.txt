@@ -1,3 +1,7 @@
+# Author: Liam Lawrence
+# Date: 2.23.17
+# Compiles code in src/ using CMake
+
 cmake_minimum_required(VERSION 3.4)
 project(FRC_Vision)
 
