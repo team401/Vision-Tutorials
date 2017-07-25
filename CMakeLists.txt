@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.4)
 project(FRC_Vision)
 
 set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin/)
 find_package(OpenCV REQUIRED)
 
 set(MAIN_FILE src/main.cpp)
